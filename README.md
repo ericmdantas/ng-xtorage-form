@@ -50,9 +50,9 @@ The directive ```$xtorage-form``` exposes three attributes:
 
         <form name="MyFormNameHere"
               $xtorage-form
-                  info-to-be-saved="{{model}}"
+                  storage="sessionStorage"
                   storage-key="KeyGoesHere"
-                  storage="sessionStorage">
+                  info-to-be-saved="{{model}}" >
                     <input type="text" ng-model="model.name" />
                     <input type="text" ng-model="model.age" />
                     <input type="checkbox" ng-model="model.somethingBoolean" />

@@ -67,7 +67,7 @@ Where, the model is the ```{{model}}```, the storage is: ```storage``` and the k
 
 # ng-xtorage
 
-ng-xtorage-form uses ng-xtorage service to save stuff in the Web Storage.
+```ng-xtorage-form``` uses ```ng-xtorage``` service to save stuff in the Web Storage.
 
 If you wanna learn more about it, please [take a look at the repo](https://github.com/ericmdantas/ng-xtorage).
 

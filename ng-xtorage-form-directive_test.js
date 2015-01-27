@@ -16,7 +16,7 @@ describe('$xtorageFormCache', function()
         _scope.model = {a: "1", b: {z: "x"}, c: true, d: 1.5};
         _scope.storage = "sessionStorage";
 
-        _html = '<form name="form" $xtorage-form-cache storage-key="key" info-to-be-saved="{{model}}" storage="{{storage}}">'+
+        _html = '<form name="form" $xtorage-form storage-key="key" info-to-be-saved="{{model}}" storage="{{storage}}">'+
                         '<input name="input1" type="text" ng-model="model.a"/>'+
                         '<input name="input2" type="text" ng-model="model.b.z"/>'+
                         '<input name="input3" type="text" type="checkbox" ng-model="model.c"/>'+
@@ -94,7 +94,7 @@ describe('$xtorageFormCache', function()
             _scope.model = {a: 'alo'};
             _scope.storage = 'localStorage';
 
-            _html = '<form name="form" $xtorage-form-cache storage-key="key" info-to-be-saved="{{model}}" storage="{{storage}}">'+
+            _html = '<form name="form" $xtorage-form storage-key="key" info-to-be-saved="{{model}}" storage="{{storage}}">'+
                             '<input name="input1" type="text" ng-model="model.a"/>'+
                             '<input name="input2" type="text" ng-model="model.b.z"/>'+
                             '<input name="input3" type="text" type="checkbox" ng-model="model.c"/>'+
@@ -114,7 +114,7 @@ describe('$xtorageFormCache', function()
             _scope.model = {a: 'alo'};
             _scope.storage = undefined;
 
-            _html = '<form name="form" $xtorage-form-cache storage-key="key" info-to-be-saved="{{model}}" storage="{{storage}}">'+
+            _html = '<form name="form" $xtorage-form storage-key="key" info-to-be-saved="{{model}}" storage="{{storage}}">'+
                         '<input name="input1" type="text" ng-model="model.a"/>'+
                         '<input name="input2" type="text" ng-model="model.b.z"/>'+
                         '<input name="input3" type="text" type="checkbox" ng-model="model.c"/>'+

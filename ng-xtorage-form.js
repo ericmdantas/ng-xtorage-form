@@ -4,7 +4,7 @@
 
     angular
         .module('emd.ng-xtorage-form', ['emd.ng-xtorage'])
-        .directive('$xtorageFormCache', ['$xtorage', function($xtorage)
+        .directive('$xtorageForm', ['$xtorage', function($xtorage)
         {
             var _link = function(scope, element, attrs)
             {

@@ -9,7 +9,7 @@ Well, that's not happening again!
 
 # installation
 
-```bower install ng-xtorage-form --save```
+```$ bower install ng-xtorage-form --save```
 
 
 # what?

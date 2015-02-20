@@ -28,6 +28,6 @@ gulp.task('build', ['unit_test'], function()
 gulp.task('coverage', ['unit_test'], function()
 {
     gulp
-        .src('coverage/**/*.info')
+        .src('coverage/**/lcov.info')
         .pipe(coveralls());
 })

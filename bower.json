@@ -1,7 +1,7 @@
 {
   "name": "ng-xtorage-form",
   "main": "ng-xtorage-form.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/ericmdantas/ng-xtorage-form",
   "authors": [
     "ericmdantas <ericdantas0@hotmail.com>"

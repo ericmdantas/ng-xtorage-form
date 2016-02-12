@@ -1,6 +1,6 @@
 "use strict";
 
-describe('$xtorageFormCache', function()
+describe('$xtorageForm', function()
 {
     var _scope, _compile, _element, _form, _xtorage;
     var _html;

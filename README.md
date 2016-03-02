@@ -1,7 +1,7 @@
 # ng-xtorage-form
 
-[![Build Status](https://travis-ci.org/ericmdantas/ng-xtorage-form.svg?branch=master)](https://travis-ci.org/ericmdantas/ng-xtorage)
-[![Coverage Status](https://coveralls.io/repos/ericmdantas/ng-xtorage-form/badge.svg?branch=master)](https://coveralls.io/r/ericmdantas/ng-xtorage?branch=master)
+[![Build Status](https://travis-ci.org/ericmdantas/ng-xtorage-form.svg?branch=master)](https://travis-ci.org/ericmdantas/ng-xtorage-form)
+[![Coverage Status](https://coveralls.io/repos/ericmdantas/ng-xtorage-form/badge.svg?branch=master)](https://coveralls.io/r/ericmdantas/ng-xtorage-form?branch=master)
 
 Remember that one time when some user was filling a big form and then, something happened, and he lost all his info?
 
